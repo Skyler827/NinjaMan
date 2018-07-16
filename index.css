@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wall, .blank, .sushi, #ninjaman {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.wall {
+    background-color: blue;
+}
+.blank {
+    background-color: black;
+}
+.sushi {
+    background-color: black;
+    background-image: url('img/sushi.png');
+    background-size: contain;
+}
+#ninjaman {
+    background-color: black;
+}
